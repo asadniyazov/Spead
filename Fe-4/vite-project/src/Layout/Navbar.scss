@@ -1,0 +1,52 @@
+.Navbar{
+    display: flex;
+    max-width: 2500px;
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+    height: 200px;
+    border: 1px solid gray;
+    
+    .Navbar_ul_container{
+        font-size: 34px;
+        min-height: 200px;
+        max-width: 2000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Navbar_ul{
+        max-width: 600px;
+        display: flex;
+        justify-content: center;
+        max-width: 1500px;
+        .Navbar_list{
+            gap: 30px;
+            display: flex;
+            justify-content: space-around;
+           li{
+            a{
+            color:white
+           }a:hover{
+            color :rgb(241, 157, 0)
+           }
+        }
+        }
+    }
+    .Navbar_3{
+        border: 1px solid gray;
+        max-width: 300px;
+        align-items: center;
+        display: flex;
+        color: white;
+        height: 200px;
+        .Navbar_3_1{
+            font-size: 16px;
+            color: gray;
+        }
+        .Navbar_3_2{
+            font-size: 16px;
+            color:yellow
+        }
+    }
+}
