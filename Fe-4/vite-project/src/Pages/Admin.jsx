@@ -36,7 +36,6 @@ function Admin() {
     <th>description</th>
     <th>price</th>
     <th>delete</th>
-    <th>update</th>
   </tr>
   </thead>
   <tbody>
